@@ -5,10 +5,10 @@ const Counter = () => {
   return (
     <div>
         <h1>Counter</h1>
-        <h2>{count}</h2>
+        <h2 role={"alert"}>{count}</h2>
         <button onClick={() => setCount(count + 1)}>Increment</button>
         <button onClick={() => setCount(count - 1)}>Decrement</button>
-        
+
       
     </div>
   )
